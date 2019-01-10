@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LootItemCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LootItems>
+    <LootItem>
+      <LootItemID>sample_bats</LootItemID>
+      <LootItemName>Sample of Live Bats</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>sample_bees</LootItemID>
+      <LootItemName>Sample of Live Bees</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>sample_butterflies</LootItemID>
+      <LootItemName>Sample of Live Butterflies</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>sample_flies</LootItemID>
+      <LootItemName>Sample of Live Flies</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>sample_glowzees</LootItemID>
+      <LootItemName>Sample of Live Glowzees</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>sample_moths</LootItemID>
+      <LootItemName>Sample of Live Moths</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>armor_segment_bone_donkuwah</LootItemID>
+      <LootItemName>Donkuwah Bone Armor Segment</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>armor_segment_bone_kimogila</LootItemID>
+      <LootItemName>Kimogila Scale Segment</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>armor_segment_bone_voritor_lizard</LootItemID>
+      <LootItemName>Voritor Lizard Hide Segment</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>armor_segment_chitin_brackaset</LootItemID>
+      <LootItemName>Brackaset Plate Segment</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>armor_segment_chitin_kliknick</LootItemID>
+      <LootItemName>Kliknick Chitin Armor Segment</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>armor_segment_chitin_kliknick_adv</LootItemID>
+      <LootItemName>Reinforced Kliknik Shell</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>armor_segment_chitin_sharnaff</LootItemID>
+      <LootItemName>Sharnaff Plating Segment</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>armor_segment_composite_krayt</LootItemID>
+      <LootItemName>Krayt Dragon Composite Armor Segment</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>armor_segment_padded_acklay</LootItemID>
+      <LootItemName>Acklay Hide</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>armor_segment_padded_dune_lizard</LootItemID>
+      <LootItemName>Dune Lizard Hide Segment</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>armor_segment_padded_fambaa</LootItemID>
+      <LootItemName>Fambaa Hide Segment</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>armor_segment_padded_rancor</LootItemID>
+      <LootItemName>Rancor Padded Armor Segment</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>armor_layer_environmental</LootItemID>
+      <LootItemName>Environmental Protection Armor Layer</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>armor_layer_nightsister</LootItemID>
+      <LootItemName>Nightsister Armor Layer</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>armor_layer_restraint</LootItemID>
+      <LootItemName>Restraint Protection Armor Layer</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>armor_segment_enhancement_brackaset</LootItemID>
+      <LootItemName>Brackaset Plates</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>armor_segment_enhancement_dragonet</LootItemID>
+      <LootItemName>Dragonet Hide</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>armor_segment_enhancement_fambaa</LootItemID>
+      <LootItemName>Fambaa Hide</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>armor_segment_enhancement_janta</LootItemID>
+      <LootItemName>Janta Hide</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>armor_segment_enhancement_kimogila</LootItemID>
+      <LootItemName>Kimogila Scales</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>armor_segment_enhancement_krayt</LootItemID>
+      <LootItemName>Krayt Dragon Scale</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>armor_segment_enhancement_nightsister</LootItemID>
+      <LootItemName>Nightsister Armor Shard</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>armor_segment_enhancement_rancor</LootItemID>
+      <LootItemName>Rancor Hide</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>armor_segment_enhancement_sharnaff</LootItemID>
+      <LootItemName>Sharnaff Plating</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>armor_segment_enhancement_voritor_lizard</LootItemID>
+      <LootItemName>Voritor Lizard Scales</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>bone_fragment_woolamander_harrower</LootItemID>
+      <LootItemName>Woolamander Harrower Bone Fragment</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>feather_peko_albatross</LootItemID>
+      <LootItemName>Peko Peko Albatross Feather</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>hide_gurk_king</LootItemID>
+      <LootItemName>Gurk King Hide</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>scale_giant_dune_kimogila</LootItemID>
+      <LootItemName>Giant Dune Kimogila Scales</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>above_average_quality_dna</LootItemID>
+      <LootItemName>Above Average Quality DNA Sample</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>average_quality_dna</LootItemID>
+      <LootItemName>Average Quality DNA Sample</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>below_average_quality_dna</LootItemID>
+      <LootItemName>Below Average Quality DNA Sample</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>high_quality_dna</LootItemID>
+      <LootItemName>High Quality DNA Sample</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>low_quality_dna</LootItemID>
+      <LootItemName>Low Quality DNA Sample</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>very_high_quality_dna</LootItemID>
+      <LootItemName>Very High Quality DNA Sample</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>very_low_quality_dna</LootItemID>
+      <LootItemName>Very Low Quality DNA Sample</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>bio_component_clothing_casual_charisma</LootItemID>
+      <LootItemName>Charigra</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>bio_component_clothing_casual_charisma_2</LootItemID>
+      <LootItemName>Personaphene</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>bio_component_clothing_field_bleeding</LootItemID>
+      <LootItemName>Constrictor Cloth</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>bio_component_clothing_field_bleeding_2</LootItemID>
+      <LootItemName>Coagulant Agents</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>bio_component_clothing_field_camo</LootItemID>
+      <LootItemName>Scent Camouflage</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>bio_component_clothing_field_camo_2</LootItemID>
+      <LootItemName>Scent Neutralization</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>bio_component_clothing_field_cover</LootItemID>
+      <LootItemName>Visual Camouflage</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>bio_component_clothing_field_cover_2</LootItemID>
+      <LootItemName>Mimetic Circuitry</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>bio_component_clothing_field_defense</LootItemID>
+      <LootItemName>Toughened Fibers</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>bio_component_clothing_field_defense_2</LootItemID>
+      <LootItemName>Tensile Resistance</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>bio_component_clothing_field_intimidate</LootItemID>
+      <LootItemName>Confidence Cloth</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>bio_component_clothing_field_intimidate_2</LootItemID>
+      <LootItemName>Fear Release</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>bio_component_food_heavy_filling</LootItemID>
+      <LootItemName>Carbocaloric Eliminator</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>bio_component_food_heavy_flavor</LootItemID>
+      <LootItemName>Multisaccharide Pentamate</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>bio_component_food_heavy_nutrition</LootItemID>
+      <LootItemName>Intelligent Nanonutrients</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>bio_component_food_heavy_quantity</LootItemID>
+      <LootItemName>Edible Nano Constructors</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>bio_component_food_light_filling</LootItemID>
+      <LootItemName>Carboreductive Catalyst</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>bio_component_food_light_flavor</LootItemID>
+      <LootItemName>Multisaccharide Dimate</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>bio_component_food_light_nutrition</LootItemID>
+      <LootItemName>Micronutrient Supplement</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>bio_component_food_light_quantity</LootItemID>
+      <LootItemName>Hyper Yeast Additive</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>bio_component_food_medium_filling</LootItemID>
+      <LootItemName>Caloric Conversion Supplement</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>bio_component_food_medium_flavor</LootItemID>
+      <LootItemName>Multisaccharide Tetramate</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>bio_component_food_medium_nutrition</LootItemID>
+      <LootItemName>Broad-Spectrum Nutrients</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>bio_component_food_medium_quantity</LootItemID>
+      <LootItemName>Hyper Yeast Concentrate</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>janta_blood</LootItemID>
+      <LootItemName>Janta Blood</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>dispersal_mechanism_quest</LootItemID>
+      <LootItemName>Modified Dispersal Mechanism</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>rancor_bile</LootItemID>
+      <LootItemName>Rancor Bile</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>infection_amplifier_donkuwah</LootItemID>
+      <LootItemName>Donkuwah Poison</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>spider_venom</LootItemID>
+      <LootItemName>Spider Venom</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>liquid_suspension_quest</LootItemID>
+      <LootItemName>Enhanced Liquid Suspension</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>clasp_heavy_duty</LootItemID>
+      <LootItemName>Heavy Duty Clasp</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>clothing_treatment_crystalline</LootItemID>
+      <LootItemName>Crystalline Clothing Treatment</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>leather_heavy_duty</LootItemID>
+      <LootItemName>Portion of Heavy Duty Leather</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>secret_imperial_biochem</LootItemID>
+      <LootItemName>Imperial Biochemical Reports</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>secret_rebel_biochem</LootItemID>
+      <LootItemName>Rebel Biochemical Research</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>corrective_inducer</LootItemID>
+      <LootItemName>Corrective Inducer</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>current_motivator</LootItemID>
+      <LootItemName>Current Motivator</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>cycle_control</LootItemID>
+      <LootItemName>Cycle Control</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>decoherence_sensor</LootItemID>
+      <LootItemName>Decoherence Sensor</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>directional_sensor</LootItemID>
+      <LootItemName>Directional Sensor</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>loop_auditor</LootItemID>
+      <LootItemName>Loop Auditor</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>momentum_compensator</LootItemID>
+      <LootItemName>Momentum Compensator</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>particle_sensor</LootItemID>
+      <LootItemName>Particle Sensor</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>signal_cleanup_unit</LootItemID>
+      <LootItemName>Signal Clean-up Unit</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>signal_rerouter</LootItemID>
+      <LootItemName>Signal Re-Router</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>spin_alignment_inducer</LootItemID>
+      <LootItemName>Spin Alignment Inducer</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>transductive_shunt</LootItemID>
+      <LootItemName>Transductive Shunt</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>tuning_cell</LootItemID>
+      <LootItemName>Tuning Cell</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>variance_throttle</LootItemID>
+      <LootItemName>Variance Throttle</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>voltage_inducer</LootItemID>
+      <LootItemName>Voltage Inducer</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>acklay_venom</LootItemID>
+      <LootItemName>Acklay Venom</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>kliknick_gland</LootItemID>
+      <LootItemName>Kliknick Gland</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>enhanced_destructive_pulse_channeling</LootItemID>
+      <LootItemName>Enhanced Destructive Pulse Channeling</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>power_plant_av21</LootItemID>
+      <LootItemName>AV-21 Power Plant</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blaster_power_handler_enhancement_durability</LootItemID>
+      <LootItemName>Heavy Duty Power Converter</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blaster_power_handler_enhancement_krayt</LootItemID>
+      <LootItemName>Krayt Dragon Tissue</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blaster_power_handler_enhancement_max_damage</LootItemID>
+      <LootItemName>High Powered Energy Capacitor</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blaster_power_handler_enhancement_min_damage</LootItemID>
+      <LootItemName>Large Energy Capacitor</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>projectile_feed_mechanism_enhancement_durability</LootItemID>
+      <LootItemName>Heavy Duty Feed Mechanism</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>projectile_feed_mechanism_enhancement_gorax</LootItemID>
+      <LootItemName>Gorax Bone Shards</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>projectile_feed_mechanism_enhancement_max_damage</LootItemID>
+      <LootItemName>High Velocity Feed Mechanism</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>projectile_feed_mechanism_enhancement_min_damage</LootItemID>
+      <LootItemName>Balanced Feed Mechanism</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>spider_fang</LootItemID>
+      <LootItemName>Spider Fang</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>vibro_unit_enhancement_durability</LootItemID>
+      <LootItemName>Heavy Duty Vibro Motor</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>vibro_unit_enhancement_max_damage</LootItemID>
+      <LootItemName>High Powered Vibro Motor</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>vibro_unit_enhancement_min_damage</LootItemID>
+      <LootItemName>Finely Tuned Vibro Motor</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>vibro_unit_enhancement_wounding</LootItemID>
+      <LootItemName>High Frequency Vibro Motor</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blaster_barrel_l_t2</LootItemID>
+      <LootItemName>T:2 Large Blaster Muzzle</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blaster_barrel_l_t3</LootItemID>
+      <LootItemName>T:3 Large Blaster Muzzle</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blaster_barrel_l_t4</LootItemID>
+      <LootItemName>T:4 Large Blaster Muzzle</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blaster_barrel_l_t5</LootItemID>
+      <LootItemName>T:5 Large Blaster Muzzle</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blaster_barrel_l_t6</LootItemID>
+      <LootItemName>T:6 Large Blaster Muzzle</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blaster_barrel_l_t7</LootItemID>
+      <LootItemName>T:7 Large Blaster Muzzle</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blaster_barrel_m_t1</LootItemID>
+      <LootItemName>T:1 Medium Blaster Muzzle</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blaster_barrel_l_t1</LootItemID>
+      <LootItemName>T:1 Large Blaster Muzzle</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blaster_barrel_m_t2</LootItemID>
+      <LootItemName>T:2 Medium Blaster Muzzle</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blaster_barrel_m_t3</LootItemID>
+      <LootItemName>T:3 Medium Blaster Muzzle</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blaster_barrel_m_t4</LootItemID>
+      <LootItemName>T:4 Medium Blaster Muzzle</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blaster_barrel_m_t5</LootItemID>
+      <LootItemName>T:5 Medium Blaster Muzzle</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blaster_barrel_m_t6</LootItemID>
+      <LootItemName>T:6 Medium Blaster Muzzle</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blaster_barrel_m_t7</LootItemID>
+      <LootItemName>T:7 Medium Blaster Muzzle</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blaster_barrel_sm_t1</LootItemID>
+      <LootItemName>T:1 Small Blaster Muzzle</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blaster_barrel_sm_t2</LootItemID>
+      <LootItemName>T:2 Small Blaster Muzzle</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blaster_barrel_sm_t3</LootItemID>
+      <LootItemName>T:3 Small Blaster Muzzle</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blaster_barrel_sm_t4</LootItemID>
+      <LootItemName>T:4 Small Blaster Muzzle</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blaster_barrel_sm_t5</LootItemID>
+      <LootItemName>T:5 Small Blaster Muzzle</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blaster_barrel_sm_t6</LootItemID>
+      <LootItemName>T:6 Small Blaster Muzzle</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blaster_barrel_sm_t7</LootItemID>
+      <LootItemName>T:7 Small Blaster Muzzle</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blaster_power_handler_quest</LootItemID>
+      <LootItemName>High Capacity Blaster Power Handler</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>corvette_rifle_barrel</LootItemID>
+      <LootItemName>Berserker Rifle Stabilization component</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>geonosian_power_cube</LootItemID>
+      <LootItemName>Geonosian Power Cube (White)</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>geonosian_power_cube_green</LootItemID>
+      <LootItemName>Geonosian Power Cube (Green)</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>geonosian_power_cube_red</LootItemID>
+      <LootItemName>Geonosian Power Cube (Red)</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>geonosian_power_cube_yellow</LootItemID>
+      <LootItemName>Geonosian Power Cube (Yellow)</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>geonosian_solidifying_agent</LootItemID>
+      <LootItemName>Geonosian Solidifying Agent</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>projectile_pistol_barrel_quest</LootItemID>
+      <LootItemName>High Caliber Projectile Pistol Barrel</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>projectile_rifle_barrel_advanced_quest</LootItemID>
+      <LootItemName>High Caliber Projectile Rifle Barrel</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>acklay_bone_reinforcement_core</LootItemID>
+      <LootItemName>Acklay Bones</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>geonosian_reinforcement_core</LootItemID>
+      <LootItemName>Geonosian Reinforcement Core</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>scope_weapon_advanced_quest</LootItemID>
+      <LootItemName>Precision Tuned Weapon Scope</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>weapon_scope_l_t1</LootItemID>
+      <LootItemName>Type One Large Weapon Scope</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>weapon_scope_l_t2</LootItemID>
+      <LootItemName>Type Two Large Weapon Scope</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>weapon_scope_l_t3</LootItemID>
+      <LootItemName>Type Three Large Weapon Scope</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>weapon_scope_sm_t1</LootItemID>
+      <LootItemName>Type One Small Weapon Scope</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>weapon_scope_sm_t2</LootItemID>
+      <LootItemName>Type Two Small Weapon Scope</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>weapon_scope_sm_t3</LootItemID>
+      <LootItemName>Type Three Small Weapon Scope</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>weapon_scope_sm_t4</LootItemID>
+      <LootItemName>Type Four Small Weapon Scope</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>weapon_scope_sm_t5</LootItemID>
+      <LootItemName>Type Five Small Weapon Scope</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>weapon_scope_sm_t6</LootItemID>
+      <LootItemName>Type Six Small Weapon Scope</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>stock_unit_advanced_quest</LootItemID>
+      <LootItemName>Advanced Quest Weapon Stock</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>geonosian_sword_core</LootItemID>
+      <LootItemName>Geonosian Sword Core</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>rancor_tooth</LootItemID>
+      <LootItemName>Rancor Tooth</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>rancor_tooth_quest</LootItemID>
+      <LootItemName>Bile Soaked Rancor Tooth</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>sword_core_quest</LootItemID>
+      <LootItemName>Reinforced Sword Core</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blade_vibro_unit_nightsister</LootItemID>
+      <LootItemName>Nightsister Vibro Blade Unit</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blade_vibro_unit_quest</LootItemID>
+      <LootItemName>Lightweight Vibro Blade Unit</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>aludium_pu36</LootItemID>
+      <LootItemName>Aludium pu36</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>kylessian_fruit_distillate</LootItemID>
+      <LootItemName>Kylessian Fruit Distillate</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>sullustan_gin</LootItemID>
+      <LootItemName>Sullustan Gin</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>de10_barrel</LootItemID>
+      <LootItemName>DE-10 Pistol Barrel</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>ardanium_ii</LootItemID>
+      <LootItemName>Ardanium II Energy</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>endrine</LootItemID>
+      <LootItemName>Endrine Ore</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>ostrine</LootItemID>
+      <LootItemName>Ostrine Ore</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>rudic</LootItemID>
+      <LootItemName>Rudic Ore</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>wind_crystal</LootItemID>
+      <LootItemName>Wind Crystal Energy</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>battery_cheap_copper</LootItemID>
+      <LootItemName>Copper Battery</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>feed_tubes</LootItemID>
+      <LootItemName>Feed Tubes</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>heating_element</LootItemID>
+      <LootItemName>Heating Element</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>motor_small_blue</LootItemID>
+      <LootItemName>Small Power Motor</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>motor_small_red</LootItemID>
+      <LootItemName>Agitator Motor</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>processor_attachments</LootItemID>
+      <LootItemName>Processor Attachments</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>pulverizer</LootItemID>
+      <LootItemName>Pulverizer</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>spinning_blade</LootItemID>
+      <LootItemName>Spinner Blade</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>tumble_blender</LootItemID>
+      <LootItemName>Tumble Blender</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>wiring_blue</LootItemID>
+      <LootItemName>Blue Wiring</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>wiring_red</LootItemID>
+      <LootItemName>Red Wiring</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>decoder_comp_housing</LootItemID>
+      <LootItemName>Data Reader Housing</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>decoder_comp_power</LootItemID>
+      <LootItemName>Power Core</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>decoder_comp_processor</LootItemID>
+      <LootItemName>Micro-Processor Core</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>decoder_comp_reader</LootItemID>
+      <LootItemName>Optical Reader</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>decoder_comp_screen</LootItemID>
+      <LootItemName>Vid Screen</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>decoder_comp_translation</LootItemID>
+      <LootItemName>Translation Circuitry</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blaster_pistol_barrel_quest</LootItemID>
+      <LootItemName>High Velocity Blaster Pistol Barrel</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>orange_rug_adhesive</LootItemID>
+      <LootItemName>Orange Rug Adhesive</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>orange_rug_dye</LootItemID>
+      <LootItemName>Orange Rug Dye</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>orange_rug_patches</LootItemID>
+      <LootItemName>Orange Rug Cloth Patches</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>orange_rug_thread_01</LootItemID>
+      <LootItemName>Orange Rug Thread - First Section</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>orange_rug_thread_02</LootItemID>
+      <LootItemName>Orange Rug Thread - Second Section</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>orange_rug_thread_03</LootItemID>
+      <LootItemName>Orange Rug Thread - Third Section</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>orange_rug_thread_04</LootItemID>
+      <LootItemName>Orange Rug Thread - Forth Section</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>orange_rug_thread_05</LootItemID>
+      <LootItemName>Orange Rug Thread - Fifth Section</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>orange_rug_thread_06</LootItemID>
+      <LootItemName>Orange Rug Thread - Sixth Section</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>orange_rug_thread_07</LootItemID>
+      <LootItemName>Orange Rug Thread - Seventh Section</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blue_rug_adhesive</LootItemID>
+      <LootItemName>Blue Rug Adhesive</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blue_rug_dye</LootItemID>
+      <LootItemName>Blue Rug Dye</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blue_rug_patches</LootItemID>
+      <LootItemName>Blue Rug Cloth Patches</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blue_rug_thread_01</LootItemID>
+      <LootItemName>Blue Rug Thread - First Section</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blue_rug_thread_02</LootItemID>
+      <LootItemName>Blue Rug Thread - Second Section</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blue_rug_thread_03</LootItemID>
+      <LootItemName>Blue Rug Thread - Third Section</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blue_rug_thread_04</LootItemID>
+      <LootItemName>Blue Rug Thread - Forth Section</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blue_rug_thread_05</LootItemID>
+      <LootItemName>Blue Rug Thread - Fifth Section</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blue_rug_thread_06</LootItemID>
+      <LootItemName>Blue Rug Thread - Sixth Section</LootItemName>
+    </LootItem>
+    <LootItem>
+      <LootItemID>blue_rug_thread_07</LootItemID>
+      <LootItemName>Blue Rug Thread - Seventh Section</LootItemName>
+    </LootItem>
+  </LootItems>
+</LootItemCollection>

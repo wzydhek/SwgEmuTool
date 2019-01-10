@@ -1,0 +1,291 @@
+﻿            DataTable dt = db.GetDataTable("SELECT resourceType, resourceCategory, DraftSchematicTemplates.draftSchematicID, LootItems.lootItem as item FROM DraftSchematicTemplates LEFT OUTER JOIN LootItems ON LootItems.lootItemID = DraftSchematicTemplates.draftSchematicID", CommandType.Text, null);
+            SchematicTemplateCollection stc = new SchematicTemplateCollection();
+            foreach (DataRow row in dt.Rows)
+            {
+                SchematicTemplate item = new SchematicTemplate();
+                item.TemplateName = (string)row["resourceType"];
+                item.ItemType = (int)row["resourceCategory"];
+                int id = (int)row["draftSchematicID"];
+                if (id < 100000)
+                    item.ItemID = id.ToString();
+                else
+                    item.ItemID = (string)row["item"];
+                stc.Templates.Add(item);
+            }
+            XmlSerializer serializer = new XmlSerializer(typeof(SchematicTemplateCollection));
+            TextWriter writer = new StreamWriter("SchematicTemplateData.xml");
+            serializer.Serialize(writer, stc);
+            writer.Close();
+
+            DataTable dt = db.GetDataTable("SELECT lootItem, lootItemName FROM LootItems", CommandType.Text, null);
+            LootItemCollection lic = new LootItemCollection();
+            foreach (DataRow row in dt.Rows)
+            {
+                LootItem item = new LootItem();
+                item.LootItemID = (string)row["lootItem"];
+                item.LootItemName = (string)row["lootItemname"];
+                lic.LootItems.Add(item);
+            }
+            XmlSerializer serializer = new XmlSerializer(typeof(LootItemCollection));
+            TextWriter writer = new StreamWriter("LootItemData.xml");
+            serializer.Serialize(writer, lic);
+            writer.Close();
+
+        //private List<string> getStringList(string field, string text)
+        //{
+        //    List<string> result = new List<string>();
+
+        //    string pattern = string.Format(@"(?<={0} =(\s*)\{{).*(?=\}},)", field);
+        //    Regex reg = new Regex(pattern, RegexOptions.None);
+        //    Match m = reg.Match(text);
+        //    if (m.Success)
+        //    {
+        //        string[] t = m.Value.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
+        //        reg = new Regex(@"(?<=\"").*(?=\"")", RegexOptions.None);
+        //        foreach (string t1 in t)
+        //        {
+        //            result.Add(reg.Match(t1).Value);
+        //        }
+        //    }
+        //    if (result.Count > 0)
+        //        return result;
+        //    else
+        //        return null;
+        //}
+
+        //private List<int> getIntList(string field, string text)
+        //{
+        //    List<int> result = new List<int>();
+
+        //    string pattern = string.Format(@"(?<={0} =(\s*)\{{).*(?=\}},)", field);
+        //    Regex reg = new Regex(pattern, RegexOptions.None);
+        //    Match m = reg.Match(text);
+        //    if (m.Success)
+        //    {
+        //        string[] t = m.Value.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
+        //        foreach (string t1 in t)
+        //        {
+        //            result.Add(int.Parse(t1));
+        //        }
+        //    }
+        //    if (result.Count > 0)
+        //        return result;
+        //    else
+        //        return null;
+        //}
+
+        //private List<decimal> getDecList(string field, string text)
+        //{
+        //    List<decimal> result = new List<decimal>();
+
+        //    string pattern = string.Format(@"(?<={0} = \{{).*(?=\}},)", field);
+        //    Regex reg = new Regex(pattern, RegexOptions.None);
+        //    Match m = reg.Match(text);
+        //    if (m.Success)
+        //    {
+        //        string[] t = m.Value.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
+        //        foreach (string t1 in t)
+        //        {
+        //            result.Add(decimal.Parse(t1));
+        //        }
+        //    }
+        //    if (result.Count > 0)
+        //        return result;
+        //    else
+        //        return null;
+        //}
+
+		        //DataTable dt = db.GetDataTable("SELECT * FROM SkillSchematics", CommandType.Text, null);
+        //dt.TableName = "SkillSchematics";
+        //dt.WriteXmlSchema("SkillSchematicsSchema.xml");
+        //dt.WriteXml("SkillSchematics.xml");
+
+        //dt = db.GetDataTable("SELECT * FROM DraftSchematicCustomizations", CommandType.Text, null);
+        //dt.TableName = "DraftSchematicCustomizations";
+        //dt.WriteXmlSchema("DraftSchematicCustomizationsSchema.xml");
+        //dt.WriteXml("DraftSchematicCustomizations.xml");
+
+        //dt = db.GetDataTable("SELECT * FROM DraftSchematicIngredients", CommandType.Text, null);
+        //dt.TableName = "DraftSchematicIngredients";
+        //dt.WriteXmlSchema("DraftSchematicIngredientsSchema.xml");
+        //dt.WriteXml("DraftSchematicIngredients.xml");
+
+        //dt = db.GetDataTable("SELECT * FROM DraftSchematicTemplates", CommandType.Text, null);
+        //dt.TableName = "DraftSchematicTemplates";
+        //dt.WriteXmlSchema("DraftSchematicTemplatesSchema.xml");
+        //dt.WriteXml("DraftSchematicTemplates.xml");
+
+        //Dictionary<int, string> list = Skills.GetSkillsList();
+
+        //List<DraftSchematic> schematics = new List<DraftSchematic>();
+
+        //using (TextReader rdr = new StreamReader(File.OpenRead(@"C:\Games\SWGEMU\shared\workspace\workspace\Core3\MMOCoreORB\bin\scripts\managers\crafting\schematics.lua")))
+        //{
+        //    string text = rdr.ReadToEnd();
+        //    Regex reg = new Regex("(?<=\\\").* (?=\\\")", RegexOptions.IgnorePatternWhitespace);
+        //    MatchCollection matches = reg.Matches(text);
+        //    foreach (Match m in matches)
+        //    {
+        //        if (!string.IsNullOrEmpty(m.Value))
+        //            schematics.Add(new DraftSchematic(m.Value.Replace(".iff", ".lua")));
+        //    }
+        //}
+
+        //foreach (DataRow row in Schematics.schematics.Rows)
+        //{
+        //    string file = ((string)row["targetTemplate"]).Replace(".iff", ".lua");
+        //    using (TextReader rdr = new StreamReader(File.OpenRead(Path.Combine(@"C:\Games\SWGEMU\shared\workspace\workspace\Core3\MMOCoreORB\bin\scripts", file))))
+        //    {
+        //        string text = rdr.ReadToEnd();
+        //        List<int> numberExperimentalProperties = getIntList("numberExperimentalProperties", text);
+        //        List<string> experimentalProperties = getStringList("experimentalProperties", text);
+        //        List<int> experimentalWeights = getIntList("experimentalWeights", text);
+        //        List<string> experimentalGroupTitles = getStringList("experimentalGroupTitles", text);
+        //        List<string> experimentalSubGroupTitles = getStringList("experimentalSubGroupTitles", text);
+        //        List<decimal> experimentalMin = getDecList("experimentalMin", text);
+        //        List<decimal> experimentalMax = getDecList("experimentalMax", text);
+        //        List<int> experimentalPrecision = getIntList("experimentalPrecision", text);
+        //        List<int> experimentalCombineType = getIntList("experimentalCombineType", text);
+
+        //        Dictionary<string, SchematicExpGroup> expGroups = new Dictionary<string, SchematicExpGroup>();
+        //        Dictionary<int, List<SchematicExpStat>> stats = new Dictionary<int, List<SchematicExpStat>>();
+
+        //        int index = 0;
+        //        if (numberExperimentalProperties == null)
+        //            continue;
+        //        for (int i=0; i < numberExperimentalProperties.Count; i++)
+        //        {
+        //            List<SchematicExpStat> ls = new List<SchematicExpStat>();
+        //            for (int j=index; j < index + numberExperimentalProperties[i]; j++)
+        //            {
+        //                SchematicExpStat s = new SchematicExpStat();
+        //                s.Stat = experimentalProperties[j];
+        //                s.Weight = experimentalWeights[j];
+        //                ls.Add(s);
+        //            }
+        //            stats.Add(i, ls);
+        //            index += numberExperimentalProperties[i];
+
+        //            SchematicExpProperty p = new SchematicExpProperty();
+        //            p.Name = experimentalSubGroupTitles[i];
+        //            p.Count = numberExperimentalProperties[i];
+        //            p.Min = experimentalMin[i];
+        //            p.Max = experimentalMax[i];
+        //            p.Precision = experimentalPrecision[i];
+        //            p.Combine = experimentalCombineType[i];
+        //            p.Stats = stats[i];
+
+        //            string title = experimentalGroupTitles[i];
+        //            if (title != "null")
+        //            {
+        //                if (expGroups.Keys.Contains(title))
+        //                {
+        //                    expGroups[title].Properties.Add(p);
+        //                }
+        //                else
+        //                {
+        //                    SchematicExpGroup g = new SchematicExpGroup();
+        //                    g.Name = title;
+        //                    g.Properties.Add(p);
+        //                    expGroups.Add(title, g);
+        //                }
+        //            }
+        //        }
+
+        //        foreach (string k1 in expGroups.Keys)
+        //        {
+        //            SchematicExpGroup g = expGroups[k1];
+        //            Dictionary<string, object> parms = new Dictionary<string, object>();
+        //            parms.Add("id", row["draftSchematicID"]);
+        //            parms.Add("name", g.Name);
+        //            int groupid = db.ExecuteScalar("INSERT INTO DraftSchematicExpGroups (draftSchematicID, draftSchematicExpGroupName) VALUES (@id, @name); SELECT @@IDENTITY", CommandType.Text, parms);
+
+        //            foreach (SchematicExpProperty ep in g.Properties)
+        //            {
+        //                parms = new Dictionary<string, object>();
+        //                parms.Add("id", groupid);
+        //                parms.Add("name", ep.Name);
+        //                parms.Add("count", ep.Count);
+        //                parms.Add("min", ep.Min);
+        //                parms.Add("max", ep.Max);
+        //                parms.Add("precision", ep.Precision);
+        //                parms.Add("combine", ep.Combine);
+        //                int pid = db.ExecuteScalar("INSERT INTO DraftSchematicExpProperties (draftSchematicExpGroupID, expPropertyName, expPropertyCount, expMin, expMax, expPrecision, expCombine) VALUES (@id, @name, @count, @min, @max, @precision, @combine); SELECT @@IDENTITY", CommandType.Text, parms);
+
+        //                foreach (SchematicExpStat s in ep.Stats)
+        //                {
+        //                    parms = new Dictionary<string, object>();
+        //                    parms.Add("id", pid);
+        //                    parms.Add("stat", s.Stat);
+        //                    parms.Add("weight", s.Weight);
+        //                    db.ExecuteNonQuery("INSERT INTO DraftSchematicExpStats (draftSchematicExpPropertyID, stat, weight) VALUES (@id, @stat, @weight)", CommandType.Text, parms);
+        //                }
+        //            }
+        //        }
+        //    }
+        //}
+
+		        //public static DataTable ReadDataTable(string tableName)
+        //{
+        //    DataTable dt = new DataTable(tableName);
+        //    using (Stream stream = Assembly.GetExecutingAssembly().GetManifestResourceStream(string.Format("SwgEmuTool.xml.{0}Schema.xml", tableName)))
+        //    {
+        //        using (StreamReader sr = new StreamReader(stream))
+        //        {
+        //            dt.ReadXmlSchema(sr);
+        //        }
+        //    }
+        //    using (Stream stream = Assembly.GetExecutingAssembly().GetManifestResourceStream(string.Format("SwgEmuTool.xml.{0}.xml", tableName)))
+        //    {
+        //        using (StreamReader sr = new StreamReader(stream))
+        //        {
+        //            dt.ReadXml(sr);
+        //        }
+        //    }
+        //    return dt;
+        //}
+
+        //public static DataTable ReadOpenDataTable(string tableName)
+        //{
+        //    DataTable dt = new DataTable(tableName);
+        //    using (Stream stream = Assembly.GetExecutingAssembly().GetManifestResourceStream(string.Format("SwgEmuTool.xml.{0}Schema.xml", tableName)))
+        //    {
+        //        using (StreamReader sr = new StreamReader(stream))
+        //        {
+        //            dt.ReadXmlSchema(sr);
+        //        }
+        //    }
+        //    using (Stream stream = new FileStream(string.Format("{0}.xml", tableName), FileMode.Open))
+        //    {
+        //        using (StreamReader sr = new StreamReader(stream))
+        //        {
+        //            dt.ReadXml(sr);
+        //        }
+        //    }
+        //    return dt;
+        //}
+
+        //private static DataTable table = null;
+
+        //public void Initialize()
+        //{
+        //    table = util.ReadDataTable("Galaxies");
+
+        //    foreach (DataRow row in table.Rows)
+        //    {
+        //        Galaxy g = new Galaxy();
+        //        g.ID = (int)row["galaxyID"];
+        //        g.Name = (string)row["galaxyName"];
+        //        g.NGE = (bool)row["nge"];
+        //        g.GHID = (int)row["ghid"];
+
+        //        galaxies.Add(g);
+        //    }
+
+        //    XmlSerializer serializer = new XmlSerializer(typeof(Galaxies));
+        //    TextWriter writer = new StreamWriter("GalaxyData.xml");
+        //    serializer.Serialize(writer, this);
+        //    writer.Close();
+
+        //}
+

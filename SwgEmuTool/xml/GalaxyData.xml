@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GalaxyCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Galaxies>
+    <Galaxy>
+      <ID>1</ID>
+      <Name>Basilisk</Name>
+      <NGE>false</NGE>
+      <GHID>14</GHID>
+    </Galaxy>
+    <Galaxy>
+      <ID>2</ID>
+      <Name>Omega</Name>
+      <NGE>true</NGE>
+      <GHID>48</GHID>
+    </Galaxy>
+    <Galaxy>
+      <ID>3</ID>
+      <Name>swgemudev</Name>
+      <NGE>false</NGE>
+      <GHID>0</GHID>
+    </Galaxy>
+  </Galaxies>
+</GalaxyCollection>
