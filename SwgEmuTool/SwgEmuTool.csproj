@@ -146,10 +146,6 @@
     <EmbeddedResource Include="xml\ResourceTypeData.xml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="code.txt" />
-    <Content Include="InventoryData.xml" />
-    <Content Include="MyResourceData.xml" />
-    <Content Include="ResourceData.xml" />
     <EmbeddedResource Include="xml\SchematicData.xml" />
     <EmbeddedResource Include="xml\SchematicTemplateData.xml" />
     <EmbeddedResource Include="xml\LootItemData.xml" />
